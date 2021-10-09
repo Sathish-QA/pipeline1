@@ -10,8 +10,7 @@ node {
 	 }
 	 finally{
 	 stage("Send email"){
-	 mail bcc: '', body: 'Build Status is ${currentBuild.result}', cc: '', from: '', replyTo: '', subject: 
-	 'Build Status', to: 'sathish.sony90@gmail.com'
+	 mail bcc: '', body: 'Build Status is ${currentBuild.result}', cc: '', from: '', replyTo: '', subject: 'Build Status', to: 'sathish.sony90@gmail.com'
 	 }
 	 
 	 )
